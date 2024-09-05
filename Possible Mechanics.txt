@@ -1,6 +1,10 @@
-Inventory System
+Inventory System (Possible)
 Basic movement
-Ghost Level
+Ghost Levels (Maybe use a multiplier/formula to calculate changes)
 Interactable Objects (for puzzles and stuff)
-Dialogue boxes/display
+//Dialogue boxes/display (maybe no dialogue)
 Doors/Gates
+Movable objects (storage boxes, chairs ect) (Account for different weights)
+Adjustable player transparency
+Possibly a Quest system
+One hit death with immediate respawn, number of hits taken goes up with ghost level (So a basic health system lmao)
