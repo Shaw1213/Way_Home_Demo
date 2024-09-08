@@ -14,6 +14,7 @@ ghostLevelMultipliers = [0.9, 0.5, 0.3]
 
 move_x = 0;
 move_y = 0;
+key = false;
 
 setGhostLevel = function(newGhostLevel)
 {
@@ -22,5 +23,15 @@ setGhostLevel = function(newGhostLevel)
 	currentGravity = maxGravity * ghostLevelMultipliers[newGhostLevel];
 	image_alpha = ghostLevelMultipliers[newGhostLevel] + 0.1;
 };
+
+set_key = function()
+{
+	key = !key
+};
+get_key = function()
+{
+	return key
+};
+
 
 setGhostLevel(2);
