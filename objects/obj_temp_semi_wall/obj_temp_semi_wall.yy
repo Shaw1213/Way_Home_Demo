@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temp_floor",
+  "%Name":"obj_temp_semi_wall",
   "eventList":[],
   "managed":true,
-  "name":"obj_temp_floor",
+  "name":"obj_temp_semi_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Enviroment",
@@ -23,15 +23,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"solid","filters":[],"listItems":[],"multiselect":false,"name":"solid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_floor",
-    "path":"sprites/spr_temp_floor/spr_temp_floor.yy",
+    "name":"spr_temp_semi",
+    "path":"sprites/spr_temp_semi/spr_temp_semi.yy",
   },
   "spriteMaskId":null,
   "visible":true,
