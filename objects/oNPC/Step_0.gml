@@ -8,5 +8,18 @@ show_debug_message("Distance to player: " + string(distance_to_player));
 
 if (distance_to_player < global.distance_threshold)
 {
-   show_debug_message("Hi");
+    // Create textbox if it doesn't exist
+    if (!instance_exists(obj_Textbox))
+    {
+        var offset_y = 100;
+        instance_create_layer(x, y - offset_y, "Instances", obj_Textbox);
+    }
+}
+else
+{
+    // Destroy textbox if it exists and player is out of range
+    if (instance_exists(obj_Textbox))
+    {
+        instance_destroy(obj_Textbox);
+    }
 }
