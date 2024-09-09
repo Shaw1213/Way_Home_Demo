@@ -42,6 +42,7 @@
   },
   "name":"Way_Home_Demo",
   "resources":[
+    {"id":{"name":"obj_player_state_swapper","path":"objects/obj_player_state_swapper/obj_player_state_swapper.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_temp_floor","path":"objects/obj_temp_floor/obj_temp_floor.yy",},},
     {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"Hi","path":"sprites/Hi/Hi.yy",},},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
     {"id":{"name":"spr_temp_floor","path":"sprites/spr_temp_floor/spr_temp_floor.yy",},},
+    {"id":{"name":"spr_temp_player_state_swapper","path":"sprites/spr_temp_player_state_swapper/spr_temp_player_state_swapper.yy",},},
     {"id":{"name":"spr_temp_player","path":"sprites/spr_temp_player/spr_temp_player.yy",},},
   ],
   "resourceType":"GMProject",
