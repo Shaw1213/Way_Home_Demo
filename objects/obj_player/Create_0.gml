@@ -35,3 +35,7 @@ get_key = function()
 
 
 setGhostLevel(2);
+
+key_pickup = ord("E");
+item = noone;
+pickup_radius = 50;
