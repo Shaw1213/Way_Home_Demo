@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temp_floor",
+  "%Name":"obj_temp_floor_slope",
   "eventList":[],
   "managed":true,
-  "name":"obj_temp_floor",
+  "name":"obj_temp_floor_slope",
   "overriddenProperties":[],
   "parent":{
     "name":"Enviroment",
     "path":"folders/Objects/Enviroment.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_temp_floor",
+    "path":"objects/obj_temp_floor/obj_temp_floor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_floor",
-    "path":"sprites/spr_temp_floor/spr_temp_floor.yy",
+    "name":"spr_temp_slope",
+    "path":"sprites/spr_temp_slope/spr_temp_slope.yy",
   },
   "spriteMaskId":null,
   "visible":true,
