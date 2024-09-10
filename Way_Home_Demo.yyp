@@ -44,9 +44,12 @@
   },
   "name":"Way_Home_Demo",
   "resources":[
+<<<<<<< HEAD
     {"id":{"name":"Obj_itemone","path":"objects/Obj_itemone/Obj_itemone.yy",},},
     {"id":{"name":"Obj_items","path":"objects/Obj_items/Obj_items.yy",},},
     {"id":{"name":"Obj_itemtwo","path":"objects/Obj_itemtwo/Obj_itemtwo.yy",},},
+=======
+>>>>>>> 0e87206ad1c6f493b6aa93b025c29222a5725821
     {"id":{"name":"obj_player_state_swapper","path":"objects/obj_player_state_swapper/obj_player_state_swapper.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_temp_door","path":"objects/obj_temp_door/obj_temp_door.yy",},},
@@ -57,6 +60,7 @@
     {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},
     {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},},
     {"id":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
+    {"id":{"name":"Main_demo","path":"rooms/Main_demo/Main_demo.yy",},},
     {"id":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"id":{"name":"Hi","path":"sprites/Hi/Hi.yy",},},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
@@ -75,6 +79,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
+    {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
