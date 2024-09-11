@@ -4,7 +4,9 @@
 //calculate distence from npc to player
 var distance_to_player = point_distance(x, y, obj_player.x, obj_player.y);
 
-show_debug_message("Distance to player: " + string(distance_to_player));
+//show_debug_message("Distance to player: " + string(distance_to_player));
+
+
 
 if (distance_to_player < global.distance_threshold)
 {
@@ -16,7 +18,7 @@ if (distance_to_player < global.distance_threshold)
     }
 }
 else
-{
+{	
     // Destroy textbox if it exists and player is out of range
     if (instance_exists(obj_Textbox))
     {

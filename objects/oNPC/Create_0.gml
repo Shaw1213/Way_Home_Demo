@@ -3,3 +3,9 @@
 global.distance_threshold = 300;
 
 global.npc_created_object = false; 
+
+
+
+
+
+
