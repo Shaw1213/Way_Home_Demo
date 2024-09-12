@@ -3,4 +3,6 @@
 global.distance_threshold_x = 100;
 global.distance_threshold_y = 50
 
+// minimum ghost level for npc's to interact with player
+ghost_level_interaction = 0;
 text_box = noone;
