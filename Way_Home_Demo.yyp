@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Way_Home_Demo",
   "resources":[
@@ -57,6 +57,7 @@
     {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},
     {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},},
     {"id":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
+    {"id":{"name":"Harrison_Test","path":"rooms/Harrison_Test/Harrison_Test.yy",},},
     {"id":{"name":"Main_demo","path":"rooms/Main_demo/Main_demo.yy",},},
     {"id":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"id":{"name":"Hi","path":"sprites/Hi/Hi.yy",},},
@@ -74,8 +75,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
+    {"roomId":{"name":"Harrison_Test","path":"rooms/Harrison_Test/Harrison_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
+    {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
   ],
   "templateType":"game",
