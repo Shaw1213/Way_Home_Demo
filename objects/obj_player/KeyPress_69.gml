@@ -1,7 +1,8 @@
 /// @description Item Pickup / place down
 var pickupList = ds_list_create();
 var pickCount = collision_circle_list(x, y, pickup_radius, Obj_items, false, true, pickupList, true);
-		
+
+// CASE: item is being picked up
 if(pickCount>0){
 	if(item == noone){
 		item = pickupList[|0];
