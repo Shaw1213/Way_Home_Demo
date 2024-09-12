@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Way_Home_Demo",
   "resources":[
@@ -71,13 +71,14 @@
     {"id":{"name":"spr_temp_slope","path":"sprites/spr_temp_slope/spr_temp_slope.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
+    {"id":{"name":"WH_player_walking","path":"sprites/WH_player_walking/WH_player_walking.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
     {"roomId":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
+    {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
   ],
   "templateType":"game",
