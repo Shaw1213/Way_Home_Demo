@@ -22,7 +22,7 @@ else
 	if(place_meeting(x, y+2, obj_temp_floor))
 {
 	move_y = 0;
-	if(keyboard_check(ord("W"))) move_y = -currentJump;
+	if(keyboard_check(ord("W")) || keyboard_check(vk_space)) move_y = -currentJump;
 }
 else if (move_y < 10) move_y += currentGravity;
 	
