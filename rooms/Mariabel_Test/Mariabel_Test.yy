@@ -32,6 +32,7 @@
     {"name":"inst_74A47B07","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},
     {"name":"inst_39A069E1","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},
     {"name":"inst_751684B0","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},
+    {"name":"inst_67CEFFFE","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -66,6 +67,7 @@
         {"$GMRInstance":"v1","%Name":"inst_74A47B07","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74A47B07","objectId":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.07635009,"scaleY":0.07096774,"x":384.0,"y":640.0,},
         {"$GMRInstance":"v1","%Name":"inst_39A069E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39A069E1","objectId":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.07635009,"scaleY":0.070967734,"x":1152.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_751684B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_751684B0","objectId":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.07635009,"scaleY":0.07096774,"x":224.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_67CEFFFE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67CEFFFE","objectId":{"name":"obj_player_state_swapper","path":"objects/obj_player_state_swapper/obj_player_state_swapper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

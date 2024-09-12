@@ -14,4 +14,8 @@ if(place_meeting(x, y+2, obj_array))
 else if (move_y < 10) 
 	move_y += currentGravity;
 move_and_collide(move_x, move_y, obj_array);
-clampObjToRoom(id)
+x = clamp(x, 0, room_width);
+if(y > room_height + 100)
+{
+	room_restart();	
+}

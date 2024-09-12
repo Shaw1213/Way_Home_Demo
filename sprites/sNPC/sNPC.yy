@@ -23,7 +23,7 @@
   ],
   "name":"sNPC",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"NPC",
     "path":"folders/Sprites/NPC.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":537,
     "yorigin":0,
   },
   "swatchColours":null,
