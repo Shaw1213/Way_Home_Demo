@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 currentSpeed = 4;
-currentJump = 16;
+currentJump = 8;
 currentGravity = 1;
 
 maxSpeed = 4;
@@ -11,9 +11,9 @@ maxGravity = 1.5;
 currentGhostLevel = 0;
 
 ghostAlphas = [1, 0.8, 0.3]
-ghostJump = [16,16,16]
+ghostJump = [12,18,13]
 ghostSpeed = [4,4,4]
-ghostGravity = [1,1,1]
+ghostGravity = [1,1,0.5]
 
 
 move_x = 0;
