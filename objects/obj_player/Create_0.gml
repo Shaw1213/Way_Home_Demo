@@ -15,6 +15,7 @@ ghostJump = [12,18,13]
 ghostSpeed = [4,4,4]
 ghostGravity = [1,1,0.5]
 
+obj_array = COLLISION_GHOST_TWO;
 
 move_x = 0;
 move_y = 0;
@@ -26,6 +27,12 @@ setGhostLevel = function(newGhostLevel)
 	currentJump = ghostJump[newGhostLevel];
 	currentGravity = ghostGravity[newGhostLevel];
 	image_alpha = ghostAlphas[newGhostLevel];
+	if(newGhostLevel == 0)
+		obj_array = COLLISION_GHOST_ZERO;
+	else if(newGhostLevel == 1)
+		obj_array = COLLISION_GHOST_ONE;
+	else
+		obj_array = COLLISION_GHOST_TWO
 };
 
 set_key = function()

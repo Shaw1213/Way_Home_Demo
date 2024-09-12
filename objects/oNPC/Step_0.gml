@@ -2,26 +2,26 @@
 // You can write your code in this editor
 
 //calculate distence from npc to player
-var distance_to_player = point_distance(x, y, obj_player.x, obj_player.y);
+var distance_to_player_x = abs(obj_player.x - id.x);
+var distance_to_player_y = abs(obj_player.y - id.y); 
+
 
 //show_debug_message("Distance to player: " + string(distance_to_player));
 
-
-
-if (distance_to_player < global.distance_threshold)
+if (distance_to_player_x < global.distance_threshold_x && distance_to_player_y < global.distance_threshold_y)
 {
     // Create textbox if it doesn't exist
-    if (!instance_exists(obj_Textbox))
+    if (text_box == noone)
     {
         var offset_y = 100;
-        instance_create_layer(x, y - offset_y, "Instances", obj_Textbox);
+        text_box = instance_create_layer(x, y - offset_y, "Instances", obj_Textbox);
     }
 }
 else
 {	
     // Destroy textbox if it exists and player is out of range
-    if (instance_exists(obj_Textbox))
+    if (text_box != noone)
     {
-        instance_destroy(obj_Textbox);
+        instance_destroy(text_box);
     }
 }
