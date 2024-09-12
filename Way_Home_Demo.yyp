@@ -57,6 +57,7 @@
     {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},
     {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},},
     {"id":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
+    {"id":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},
     {"id":{"name":"Main_demo","path":"rooms/Main_demo/Main_demo.yy",},},
     {"id":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"id":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
@@ -79,6 +80,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},
     {"roomId":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"roomId":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
