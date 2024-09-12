@@ -77,11 +77,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"roomId":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
-    {"roomId":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
