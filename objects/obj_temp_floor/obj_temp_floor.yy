@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_floor",
-    "path":"sprites/spr_temp_floor/spr_temp_floor.yy",
+    "name":"spr_temp_ground",
+    "path":"sprites/spr_temp_ground/spr_temp_ground.yy",
   },
   "spriteMaskId":null,
   "visible":true,
