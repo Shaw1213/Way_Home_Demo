@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -44,6 +44,8 @@
   },
   "name":"Way_Home_Demo",
   "resources":[
+    {"id":{"name":"_Camera_To_Npc","path":"objects/_Camera_To_Npc/_Camera_To_Npc.yy",},},
+    {"id":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},},
     {"id":{"name":"Obj_itemone","path":"objects/Obj_itemone/Obj_itemone.yy",},},
     {"id":{"name":"Obj_items","path":"objects/Obj_items/Obj_items.yy",},},
     {"id":{"name":"Obj_itemtwo","path":"objects/Obj_itemtwo/Obj_itemtwo.yy",},},
@@ -80,11 +82,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},
     {"roomId":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"roomId":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
-    {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
   ],
   "templateType":"game",
