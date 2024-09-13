@@ -12,8 +12,8 @@
     "path":"folders/Objects/Interactable.yy",
   },
   "parentObjectId":{
-    "name":"obj_temp_floor",
-    "path":"objects/obj_temp_floor/obj_temp_floor.yy",
+    "name":"obj_temp_ground",
+    "path":"objects/obj_temp_ground/obj_temp_ground.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
