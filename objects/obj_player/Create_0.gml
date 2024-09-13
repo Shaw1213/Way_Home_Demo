@@ -21,6 +21,19 @@ move_x = 0;
 move_y = 0;
 key = false;
 
+//Lerp camera movement vars
+halfViewWidth = 0;
+halfViewHeight = 0;
+
+view_x = 0;
+view_y = 0;
+
+hor_x = 0;
+hor_y = 0;
+
+goto_x = 0;
+new_x = 0;
+
 setGhostLevel = function(newGhostLevel)
 {
 	currentGhostLevel = newGhostLevel;

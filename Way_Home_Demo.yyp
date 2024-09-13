@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Way_Home_Demo",
   "resources":[
@@ -62,6 +62,7 @@
     {"id":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"id":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"id":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
+    {"id":{"name":"Wrap_Kit_Demo","path":"rooms/Wrap_Kit_Demo/Wrap_Kit_Demo.yy",},},
     {"id":{"name":"Global_Functions","path":"scripts/Global_Functions/Global_Functions.yy",},},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
     {"id":{"name":"Hi","path":"sprites/Hi/Hi.yy",},},
@@ -80,6 +81,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Wrap_Kit_Demo","path":"rooms/Wrap_Kit_Demo/Wrap_Kit_Demo.yy",},},
     {"roomId":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},
     {"roomId":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"roomId":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
