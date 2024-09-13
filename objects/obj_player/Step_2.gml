@@ -1,3 +1,4 @@
+/*
 /// @description Move the Viewport, Lerp smoothing
 #region
 hor_x = keyboard_check(vk_right) - keyboard_check(vk_left);
