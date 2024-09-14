@@ -99,6 +99,7 @@
     {"id":{"name":"spr_text_gunfire","path":"sprites/spr_text_gunfire/spr_text_gunfire.yy",},},
     {"id":{"name":"spr_text_invis_wall","path":"sprites/spr_text_invis_wall/spr_text_invis_wall.yy",},},
     {"id":{"name":"spr_text_trigger","path":"sprites/spr_text_trigger/spr_text_trigger.yy",},},
+    {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
     {"id":{"name":"WH_player_walking","path":"sprites/WH_player_walking/WH_player_walking.yy",},},
   ],
   "resourceType":"GMProject",
