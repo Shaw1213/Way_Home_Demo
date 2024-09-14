@@ -6,20 +6,20 @@
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":32,
-  "collisionKind":1,
+  "collisionKind":0,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"58cdaf48-572e-4ab8-9573-c68a6f0fd580","name":"58cdaf48-572e-4ab8-9573-c68a6f0fd580","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3b234b3a-f717-4cbe-9c1f-098cc967de8f","name":"3b234b3a-f717-4cbe-9c1f-098cc967de8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9009f900-ec6c-4491-8ef2-3d811c904d00","blendMode":0,"displayName":"default","isLocked":false,"name":"9009f900-ec6c-4491-8ef2-3d811c904d00","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8239fc7b-a2a1-4077-a460-08fa52087ee9","blendMode":0,"displayName":"default","isLocked":false,"name":"8239fc7b-a2a1-4077-a460-08fa52087ee9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_temp_slope_low",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"58cdaf48-572e-4ab8-9573-c68a6f0fd580","path":"sprites/spr_temp_slope_low/spr_temp_slope_low.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"98736008-30c5-47d0-b397-68b3d9bb582d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b234b3a-f717-4cbe-9c1f-098cc967de8f","path":"sprites/spr_temp_slope_low/spr_temp_slope_low.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2c04bd00-3d9f-4e6a-b91e-d1e7ebd8daec","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
