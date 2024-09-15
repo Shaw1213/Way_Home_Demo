@@ -4,7 +4,7 @@ currentSpeed = 4;
 currentJump = 8;
 currentGravity = 1;
 
-pushSpeed = 0.3 * currentSpeed;
+pushSpeed = 0.4 * currentSpeed;
 sprintSpeed = 2 * currentSpeed
 crouchSpeed = 0.5 * currentSpeed
 isCrouching = false;
