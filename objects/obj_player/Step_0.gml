@@ -3,7 +3,9 @@
 
 
 move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-if(keyboard_check(vk_shift) && currentGhostLevel != 2 && !isCrouching)
+if (pushing!=noone)
+	move_x *= pushSpeed;
+else if(keyboard_check(vk_shift) && currentGhostLevel != 2 && !isCrouching)
 	move_x *= sprintSpeed;
 else if(isCrouching)
 	move_x *= crouchSpeed;

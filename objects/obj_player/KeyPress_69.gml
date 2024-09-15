@@ -7,7 +7,7 @@ if(currentGhostLevel==0 && pushing == noone) {
 	var pushables = collision_circle_list(x, y, sprite_width, obj_moveable, false, true, pushable_list, false);
 
 	for(var index = 0; index < pushables; index++){
-		if(place_meeting(x+2, y, pushable_list[| index]) || place_meeting(x-2, y, pushable_list[| index])) {
+		if(place_meeting(x+5, y, pushable_list[| index]) || place_meeting(x-5, y, pushable_list[| index])) {
 			pushing = pushable_list[| index];
 			pushing.held_by = id;
 			pushing.being_pushed = true;
