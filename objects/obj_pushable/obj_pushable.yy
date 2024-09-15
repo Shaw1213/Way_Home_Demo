@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_crate",
-  "eventList":[],
+  "%Name":"obj_pushable",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_crate",
+  "name":"obj_pushable",
   "overriddenProperties":[],
   "parent":{
     "name":"Interactable",
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_temp_crate",
+    "path":"sprites/spr_temp_crate/spr_temp_crate.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
