@@ -1,4 +1,9 @@
-/// @description Item Pickup / place down
+#region pushable_items
+
+
+/**
+#region item_pickup
+/// @description Item Pickup / place down. CURRENTLY UNUSED
 var pickupList = ds_list_create();
 var pickCount = collision_circle_list(x, y, pickup_radius, Obj_items, false, true, pickupList, true);
 
@@ -31,3 +36,4 @@ if(item == noone) {
 }
 
 ds_list_destroy(pickupList);
+**/
