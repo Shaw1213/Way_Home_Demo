@@ -63,5 +63,6 @@ get_key = function()
 
 setGhostLevel(2);
 
+pushing = noone;
 item = noone;
 pickup_radius = 50;
