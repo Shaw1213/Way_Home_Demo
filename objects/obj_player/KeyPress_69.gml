@@ -1,11 +1,13 @@
+/// @description Interactable stuff
+
 #region pushable_items
 // Set which pushable object is being pushed
-if(pushing == noone) {
+if(currentGhostLevel==0 && pushing == noone) {
 	var pushable_list = ds_list_create();
 	var pushables = collision_circle_list(x, y, sprite_width, obj_moveable, false, true, pushable_list, false);
 
 	for(var index = 0; index < pushables; index++){
-		if(place_meeting(x+1, y, pushable_list[| index]) || place_meeting(x-1, y, pushable_list[| index])) {
+		if(place_meeting(x+2, y, pushable_list[| index]) || place_meeting(x-2, y, pushable_list[| index])) {
 			pushing = pushable_list[| index];
 			pushing.held_by = id;
 			pushing.being_pushed = true;
@@ -13,16 +15,11 @@ if(pushing == noone) {
 		}
 	}
 	ds_list_destroy(pushable_list);
-} else {
-	pushing.held_by = noone;
-	pushing.being_pushed = false;
-	pushing = noone;
 }
 #endregion
 
-/**
 #region item_pickup
-/// @description Item Pickup / place down. CURRENTLY UNUSED
+// Item Pickup / place down. CURRENTLY UNUSED
 var pickupList = ds_list_create();
 var pickCount = collision_circle_list(x, y, pickup_radius, Obj_items, false, true, pickupList, true);
 
@@ -56,4 +53,3 @@ if(item == noone) {
 
 ds_list_destroy(pickupList);
 #endregion
-**/

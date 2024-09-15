@@ -21,10 +21,6 @@ else if (move_y < 10 && !(currentGhostLevel == 2 && isCrouching))
 else if(move_y < 10 && (currentGhostLevel == 2 && isCrouching))
 	move_y += 0.5 * currentGravity;
 
-with(pushing) {
-	move_and_collide(other.move_x, 0, COLLISION_INTERACTABLES);
-}
-	
 move_and_collide(move_x, move_y, obj_array);
 x = clamp(x, 0, room_width);
 if(y > room_height + 100)
