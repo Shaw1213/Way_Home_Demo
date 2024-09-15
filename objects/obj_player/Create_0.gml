@@ -4,18 +4,18 @@ currentSpeed = 4;
 currentJump = 8;
 currentGravity = 1;
 
-maxSpeed = 4;
-maxJump = 24;
-maxGravity = 1.5;
+sprintSpeed = 2 * currentSpeed
+crouchSpeed = 0.5 * currentSpeed
+isCrouching = false;
 
 currentGhostLevel = 0;
 
 ghostAlphas = [1, 0.8, 0.3]
-ghostJump = [12,18,13]
-ghostSpeed = [4,4,4]
-ghostGravity = [1,1,0.5]
+ghostJump = [12,13,10]
+ghostSpeed = [4,3,2]
+ghostGravity = [1,0.5,0.2]
 
-obj_array = COLLISION_GHOST_TWO;
+obj_array = COLLISION_GHOST_ZERO;
 
 move_x = 0;
 move_y = 0;
@@ -40,6 +40,10 @@ setGhostLevel = function(newGhostLevel)
 	currentJump = ghostJump[newGhostLevel];
 	currentGravity = ghostGravity[newGhostLevel];
 	image_alpha = ghostAlphas[newGhostLevel];
+	
+	sprintSpeed = 0.5 * currentSpeed + currentSpeed;
+	crouchSpeed = 0.5 * currentSpeed;
+	
 	if(newGhostLevel == 0)
 		obj_array = COLLISION_GHOST_ZERO;
 	else if(newGhostLevel == 1)

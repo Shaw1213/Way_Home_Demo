@@ -68,6 +68,7 @@
     {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},},
     {"id":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
     {"id":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},
+    {"id":{"name":"Kaitlyn_Test","path":"rooms/Kaitlyn_Test/Kaitlyn_Test.yy",},},
     {"id":{"name":"Main_demo","path":"rooms/Main_demo/Main_demo.yy",},},
     {"id":{"name":"Mariabel_Test","path":"rooms/Mariabel_Test/Mariabel_Test.yy",},},
     {"id":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
@@ -107,6 +108,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Kaitlyn_Test","path":"rooms/Kaitlyn_Test/Kaitlyn_Test.yy",},},
     {"roomId":{"name":"WayHomeLevel","path":"rooms/WayHomeLevel/WayHomeLevel.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},
