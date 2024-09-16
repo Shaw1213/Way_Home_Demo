@@ -10,8 +10,13 @@
     "path":"folders/Objects/Enviroment.yy",
   },
   "parentObjectId":{
+<<<<<<< HEAD
     "name":"obj_temp_floor",
     "path":"objects/obj_temp_floor/obj_temp_floor.yy",
+=======
+    "name":"obj_tem_floor",
+    "path":"objects/obj_tem_floor/obj_tem_floor.yy",
+>>>>>>> 22a3ca78da3c595072585d4def38831543f3459c
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
