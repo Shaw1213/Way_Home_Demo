@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temp_floor_slope",
+  "%Name":"obj_blouder_0",
   "eventList":[],
   "managed":true,
-  "name":"obj_temp_floor_slope",
+  "name":"obj_blouder_0",
   "overriddenProperties":[],
   "parent":{
     "name":"Enviroment",
     "path":"folders/Objects/Enviroment.yy",
   },
-  "parentObjectId":{
-    "name":"obj_tem_floor",
-    "path":"objects/obj_tem_floor/obj_tem_floor.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,16 +23,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"solid","filters":[],"listItems":[],"multiselect":false,"name":"solid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_temp_slope",
-    "path":"sprites/spr_temp_slope/spr_temp_slope.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

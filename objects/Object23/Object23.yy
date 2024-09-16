@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temp_stone",
+  "%Name":"Object23",
   "eventList":[],
   "managed":true,
-  "name":"obj_temp_stone",
+  "name":"Object23",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviroment",
-    "path":"folders/Objects/Enviroment.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_tem_floor",
-    "path":"objects/obj_tem_floor/obj_tem_floor.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_temp_stone",
-    "path":"sprites/spr_temp_stone/spr_temp_stone.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
