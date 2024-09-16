@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temp_floor_slope",
+  "%Name":"obj_ground_2",
   "eventList":[],
   "managed":true,
-  "name":"obj_temp_floor_slope",
+  "name":"obj_ground_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Enviroment",
@@ -26,15 +26,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"solid","filters":[],"listItems":[],"multiselect":false,"name":"solid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_slope",
-    "path":"sprites/spr_temp_slope/spr_temp_slope.yy",
+    "name":"spr_ground_2",
+    "path":"sprites/spr_ground_2/spr_ground_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
