@@ -1,7 +1,7 @@
 
 // Base camera size
-camera_width_base = 1280;
-camera_height_base = 720;
+camera_width_base = 1500;
+camera_height_base = 800;
 
 // Initial zoom factor
 zoom_factor = 1;
