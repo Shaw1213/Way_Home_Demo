@@ -3,7 +3,7 @@
 if (instance_exists(camera_target)) {
     // Get the target's position
     var target_x = camera_target.x;
-    var target_y = camera_target.y;
+    var target_y = camera_target.y - 200;
 
     // Calculate desired camera position to center on target
     var cam_width = camera_get_view_width(camera);

@@ -4,7 +4,7 @@ camera_width_base = 1280;
 camera_height_base = 720;
 
 // Initial zoom factor
-zoom_factor = 1.0;
+zoom_factor = 1;
 
 // Initial camera target
 camera_target = obj_player;
