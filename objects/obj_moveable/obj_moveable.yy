@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_crate",
-    "path":"sprites/spr_temp_crate/spr_temp_crate.yy",
+    "name":"spr_box",
+    "path":"sprites/spr_box/spr_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_player_state_swapper",
-    "path":"sprites/spr_temp_player_state_swapper/spr_temp_player_state_swapper.yy",
+    "name":"spr_grave_stone",
+    "path":"sprites/spr_grave_stone/spr_grave_stone.yy",
   },
   "spriteMaskId":null,
   "visible":true,
