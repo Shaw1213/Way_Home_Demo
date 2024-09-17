@@ -9,8 +9,8 @@
   "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPC",
-    "path":"folders/Objects/NPC.yy",
+    "name":"Enemy",
+    "path":"folders/Objects/NPC/Enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Hi",
-    "path":"sprites/Hi/Hi.yy",
+    "name":"spr_temp_enemy",
+    "path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

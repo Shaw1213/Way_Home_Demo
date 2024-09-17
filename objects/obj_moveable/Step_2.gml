@@ -22,7 +22,7 @@ if(being_pushed) {
 	}
 			
 	// Out of pull range checks (ie: the box falls)
-	if(!place_meeting(x+5, y, held_by) && !place_meeting(x-5, y, held_by)) {
+	if(!place_meeting(x+10, y, held_by) && !place_meeting(x-10, y, held_by)) {
 			held_by.pushing = noone;
 			held_by = noone;
 			being_pushed = false;
