@@ -94,6 +94,8 @@
     {"id":{"name":"spr_boulder_2","path":"sprites/spr_boulder_2/spr_boulder_2.yy",},},
     {"id":{"name":"spr_boulder_3","path":"sprites/spr_boulder_3/spr_boulder_3.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
+    {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
+    {"id":{"name":"spr_enemy_walking","path":"sprites/spr_enemy_walking/spr_enemy_walking.yy",},},
     {"id":{"name":"spr_fence_0","path":"sprites/spr_fence_0/spr_fence_0.yy",},},
     {"id":{"name":"spr_gate_0","path":"sprites/spr_gate_0/spr_gate_0.yy",},},
     {"id":{"name":"spr_gate_1","path":"sprites/spr_gate_1/spr_gate_1.yy",},},
