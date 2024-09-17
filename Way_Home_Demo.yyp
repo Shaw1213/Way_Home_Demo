@@ -141,8 +141,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Harley_Test_SoftLock_included","path":"rooms/Harley_Test_SoftLock_included/Harley_Test_SoftLock_included.yy",},},
     {"roomId":{"name":"WayHomeLevel","path":"rooms/WayHomeLevel/WayHomeLevel.yy",},},
+    {"roomId":{"name":"Harley_Test_SoftLock_included","path":"rooms/Harley_Test_SoftLock_included/Harley_Test_SoftLock_included.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Kaitlyn_Test","path":"rooms/Kaitlyn_Test/Kaitlyn_Test.yy",},},

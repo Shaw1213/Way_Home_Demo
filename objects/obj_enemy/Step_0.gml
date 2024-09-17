@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 if(global.enemyTriggered) {
+	image_alpha = 1;
 	var jump = 0;
 	if(!place_meeting(x + sprite_width, y + 10, COLLISION_INTERACTABLES)) {
 		jump = -20;
