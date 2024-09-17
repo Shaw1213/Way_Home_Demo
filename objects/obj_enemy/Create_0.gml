@@ -3,6 +3,6 @@
 
 // Set the chasing 
 global.enemyTriggered= false;
-chase_speed = 8;
+chase_speed = 9;
 gravity = 1;
 image_alpha = 0;

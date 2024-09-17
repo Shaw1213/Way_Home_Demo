@@ -16,9 +16,9 @@ currentGhostLevel = 0;
 ghostAlphas = [1, 0.8, 0.3]
 ghostJump = [12,13,10]
 ghostSpeed = [4,3,2]
-ghostGravity = [1,0.5,0.2]
+ghostGravity = [0.85,0.5,0.2]
 
-obj_array = COLLISION_GHOST_ZERO;
+obj_array = COLLISION_GHOST_ONE;
 
 move_x = 0;
 move_y = 0;
