@@ -48,6 +48,7 @@
     {"id":{"name":"_Camera_To_Npc","path":"objects/_Camera_To_Npc/_Camera_To_Npc.yy",},},
     {"id":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},},
     {"id":{"name":"obj_enemy_end_box","path":"objects/obj_enemy_end_box/obj_enemy_end_box.yy",},},
+    {"id":{"name":"obj_enemy_jump_box","path":"objects/obj_enemy_jump_box/obj_enemy_jump_box.yy",},},
     {"id":{"name":"obj_enemy_trigger_box","path":"objects/obj_enemy_trigger_box/obj_enemy_trigger_box.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_ground_0","path":"objects/obj_ground_0/obj_ground_0.yy",},},
