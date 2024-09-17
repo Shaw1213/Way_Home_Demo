@@ -26,10 +26,21 @@ if(abs(move_x) > 0){
 	if(onGround) {
 		sprite_index = WH_player_walking;
 		sprite_set_speed(WH_player_walking, move_x, spritespeed_framespersecond);
+		if(isCrouching) {
+			sprite_index = spr_player_crouching;
+			sprite_set_speed(spr_player_crouching, move_x, spritespeed_framespersecond);
+		}
 	}
 }
 else
 	if(onGround)
-		sprite_index = spr_temp_player;
+	{
+		if(isCrouching) {
+			sprite_index = spr_player_crouching;
+			sprite_set_speed(spr_player_crouching, 0, spritespeed_framespersecond);
+			image_index = 0;
+		} else
+			sprite_index = spr_temp_player;
+	}
 	
 #endregion
