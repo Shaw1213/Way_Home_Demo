@@ -8,4 +8,4 @@
 // Collision for interactables
 #macro COLLISION_INTERACTABLES [obj_temp_floor, obj_temp_semi_wall, obj_moveable, obj_player]
 
-#macro COLLISION_ENEMY [obj_temp_floor, obj_temp_semi_wall, obj_moveable, obj_player]
+#macro COLLISION_ENEMY [obj_temp_floor, obj_temp_semi_wall, obj_moveable]
