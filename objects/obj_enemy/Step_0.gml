@@ -3,10 +3,11 @@
 
 if(global.enemyTriggered) {
 	image_alpha = 1;
+		sprite_index= spr_enemy_walking;
 	if(place_meeting(x, y+5, COLLISION_ENEMY)) {
 		// A hole or wall	
-		if(!place_meeting(x + 20, y + 10, COLLISION_ENEMY) || place_meeting(x+sprite_width, y, COLLISION_ENEMY)) {
-			speed = 20;
+		if(!place_meeting(x + 50, y + 80, COLLISION_ENEMY) || place_meeting(x+50, y, COLLISION_ENEMY)) {
+			speed = 15;
 			direction = 90;
 		}
 	}
