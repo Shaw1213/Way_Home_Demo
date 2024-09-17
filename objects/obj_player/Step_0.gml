@@ -3,25 +3,15 @@
 
 move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
-if keyboard_check(ord("A")) || keyboard_check(ord("D"))
-	sprite_index = WH_player_walking
-if keyboard_check_released(ord("A")) || keyboard_check_released(ord("D"))
-	sprite_index = spr_temp_player
 	
 if (pushing!=noone)
 	move_x *= pushSpeed;
 else if(keyboard_check(vk_shift) && currentGhostLevel != 2 && !isCrouching)
-	{
 	move_x *= sprintSpeed;
-	sprite_set_speed(WH_player_walking, 8, spritespeed_framespersecond);
-	}
 else if(isCrouching)
 	move_x *= crouchSpeed;
 else
-	{
 	move_x *= currentSpeed;
-	sprite_set_speed(WH_player_walking, 4, spritespeed_framespersecond);
-	}
 
 if(place_meeting(x, y+2, obj_array))
 {

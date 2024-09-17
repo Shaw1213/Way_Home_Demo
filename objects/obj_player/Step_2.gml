@@ -17,3 +17,13 @@ camera_set_view_pos(view_camera[0], new_x, 0);
 //camera_set_view_pos(view_camera[0], x - halfViewWidth, 0);
 
 #endregion
+*/
+
+if(abs(move_x) > 0){
+	sprite_index = WH_player_walking;
+	sprite_set_speed(WH_player_walking, move_x, spritespeed_framespersecond);
+	if (image_xscale > 0 && move_x < 0) || (image_xscale < 0 && move_x > 0) // sprite is opposite of movement
+		image_xscale*= -1;
+}
+else
+	sprite_index = spr_temp_player;

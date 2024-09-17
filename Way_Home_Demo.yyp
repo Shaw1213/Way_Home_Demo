@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Way_Home_Demo",
   "resources":[
@@ -144,6 +144,7 @@
     {"roomId":{"name":"Simon_Test","path":"rooms/Simon_Test/Simon_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
     {"roomId":{"name":"Drew_Test","path":"rooms/Drew_Test/Drew_Test.yy",},},
+    {"roomId":{"name":"Main_demo","path":"rooms/Main_demo/Main_demo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
