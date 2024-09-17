@@ -16,8 +16,14 @@ else
 if(place_meeting(x, y+2, obj_array))
 {
 	move_y = 0;
-	if(keyboard_check(ord("W")) || keyboard_check(vk_space)) 
+	onGround=true;
+	if(keyboard_check(ord("W")) || keyboard_check(vk_space)) { 
 		move_y = -currentJump;
+		onGround=false;
+		sprite_index = spr_player_jumping;
+		image_index = 0;
+		sprite_set_speed(spr_player_jumping, 5, spritespeed_framespersecond);
+	}
 }
 else if (move_y < 10 && !(currentGhostLevel == 2 && isCrouching)) 
 	move_y += currentGravity;

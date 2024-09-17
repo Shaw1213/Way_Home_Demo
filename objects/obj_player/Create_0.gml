@@ -8,6 +8,7 @@ pushSpeed = 0.4 * currentSpeed;
 sprintSpeed = 2 * currentSpeed
 crouchSpeed = 0.5 * currentSpeed
 isCrouching = false;
+onGround = false;
 direction = 0.25
 
 currentGhostLevel = 0;

@@ -101,6 +101,7 @@
     {"id":{"name":"spr_house_0","path":"sprites/spr_house_0/spr_house_0.yy",},},
     {"id":{"name":"spr_house_bg_0","path":"sprites/spr_house_bg_0/spr_house_bg_0.yy",},},
     {"id":{"name":"spr_house_tile","path":"sprites/spr_house_tile/spr_house_tile.yy",},},
+    {"id":{"name":"spr_player_jumping","path":"sprites/spr_player_jumping/spr_player_jumping.yy",},},
     {"id":{"name":"spr_ruins_0","path":"sprites/spr_ruins_0/spr_ruins_0.yy",},},
     {"id":{"name":"spr_stone_tile","path":"sprites/spr_stone_tile/spr_stone_tile.yy",},},
     {"id":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},},
