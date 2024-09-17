@@ -3,7 +3,6 @@
 
 function clampObjToRoom(objID){
 	with(objID){ 
-		x = clamp(x, 0, room_width);
-		y = clamp(y, 0, room_height);
+		x = clamp(x, 0, room_width);      
 	}
 }

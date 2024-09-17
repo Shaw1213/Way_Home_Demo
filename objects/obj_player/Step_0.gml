@@ -22,7 +22,7 @@ if(place_meeting(x, y+2, obj_array))
 		onGround=false;
 		sprite_index = spr_player_jumping;
 		image_index = 0;
-		sprite_set_speed(spr_player_jumping, 6, spritespeed_framespersecond);
+		sprite_set_speed(spr_player_jumping, 8, spritespeed_framespersecond);
 	}
 }
 else if (move_y < 10 && !(currentGhostLevel == 2 && isCrouching)) 

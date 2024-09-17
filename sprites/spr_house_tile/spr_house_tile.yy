@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_house_tile",
   "bboxMode":0,
-  "bbox_bottom":12,
+  "bbox_bottom":25,
   "bbox_left":0,
-  "bbox_right":127,
+  "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":13,
+  "height":26,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"1f1512c6-0a94-4163-8908-96fe726b1f8c","blendMode":0,"displayName":"default","isLocked":false,"name":"1f1512c6-0a94-4163-8908-96fe726b1f8c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":256,
 }

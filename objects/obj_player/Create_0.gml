@@ -18,7 +18,7 @@ ghostJump = [12,13,10]
 ghostSpeed = [4,3,2]
 ghostGravity = [0.85,0.5,0.2]
 
-obj_array = COLLISION_GHOST_ONE;
+obj_array = COLLISION_GHOST_ZERO;
 
 move_x = 0;
 move_y = 0;
