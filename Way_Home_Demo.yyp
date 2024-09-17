@@ -47,6 +47,7 @@
   "resources":[
     {"id":{"name":"_Camera_To_Npc","path":"objects/_Camera_To_Npc/_Camera_To_Npc.yy",},},
     {"id":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},},
+    {"id":{"name":"obj_enemy_trigger_box","path":"objects/obj_enemy_trigger_box/obj_enemy_trigger_box.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_ground_0","path":"objects/obj_ground_0/obj_ground_0.yy",},},
     {"id":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},},
@@ -138,8 +139,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Harley_Test_SoftLock_included","path":"rooms/Harley_Test_SoftLock_included/Harley_Test_SoftLock_included.yy",},},
-    {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"WayHomeLevel","path":"rooms/WayHomeLevel/WayHomeLevel.yy",},},
+    {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Shawn_Test","path":"rooms/Shawn_Test/Shawn_Test.yy",},},
     {"roomId":{"name":"Kaitlyn_Test","path":"rooms/Kaitlyn_Test/Kaitlyn_Test.yy",},},
     {"roomId":{"name":"Jason_Test","path":"rooms/Jason_Test/Jason_Test.yy",},},

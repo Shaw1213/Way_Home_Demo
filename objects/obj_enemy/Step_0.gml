@@ -1,16 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Check if the player exists in the room
-if (instance_exists(obj_player)) {
-    // Calculate the direction from the enemy to the player
-    var direction_to_player = point_direction(x, y, obj_player.x, obj_player.y);
-
-    // Calculate the movement components
-    var x_speed = lengthdir_x(chase_speed, direction_to_player);
-    var y_speed = lengthdir_y(chase_speed, direction_to_player);
-
-    // Move the enemy towards the player at the specified speed
-    x += x_speed;
-    y += y_speed;
+if(global.enemyTriggered) {
+	var jump = 0;
+	if(!place_meeting(x + sprite_width, y + 10, COLLISION_INTERACTABLES)) {
+		jump = -20;
+	}
+	move_and_collide(chase_speed, jump, COLLISION_INTERACTABLES);
 }
